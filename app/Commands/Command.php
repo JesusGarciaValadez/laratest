@@ -1,4 +1,4 @@
-<?php namespace App\Commands;
+<?php namespace laratest\Commands;
 
 abstract class Command {
 

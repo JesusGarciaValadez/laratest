@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: App
-        psr4_prefix: App
+        namespace: laratest
+        psr4_prefix: laratest
         src_path: app

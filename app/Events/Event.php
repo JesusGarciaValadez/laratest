@@ -1,4 +1,4 @@
-<?php namespace App\Events;
+<?php namespace laratest\Events;
 
 abstract class Event {
 

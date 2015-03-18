@@ -1,4 +1,4 @@
-<?php namespace App\Providers;
+<?php namespace laratest\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
