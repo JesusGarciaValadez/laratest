@@ -26,7 +26,7 @@ return [
 	|
 	*/
 
-	'url' => 'http://localhost',
+	'url' => 'http://laratest.app',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -52,7 +52,7 @@ return [
 	|
 	*/
 
-	'locale' => 'en',
+	'locale' => 'es',
 
 	/*
 	|--------------------------------------------------------------------------
@@ -145,6 +145,10 @@ return [
 		'laratest\Providers\EventServiceProvider',
 		'laratest\Providers\RouteServiceProvider',
 
+		/*
+		 * Laravel Collective Service Providers
+		 */
+		'Collective\Html\HtmlServiceProvider',
 	],
 
 	/*
@@ -193,6 +197,11 @@ return [
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
 
+		/*
+		 * Laravel Collective Application Aliases
+		 */
+		'Form' => 'Collective\Html\FormFacade',
+		'Html' => 'Collective\Html\HtmlFacade',
 	],
 
 ];
